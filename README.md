@@ -1,16 +1,18 @@
 hec
 ===
+Mirrored from https://code.google.com/archive/p/hec/
+
 ### TODO
-- Allocate and release memory (done)
-- Execute command and retrieve result (done)
-- Reverse HEC file layout (done)
-- Handle magic number in HEC file (done)
-- Supported commands:
+- [x] Allocate and release memory
+- [x] Execute command and retrieve result
+- [x] Reverse HEC file layout
+- [x] Handle magic number in HEC file
+- [ ] Supported commands
 	- LBI
-	- LAD/LAI
+	- LAD/LAI	
 	- LB/SB
 
-- More commands:
+- [ ] More commands:
 	- PUSHB/POPB
 	- MOV
 	- JMP/JE/JNE
@@ -19,4 +21,4 @@ hec
 	- ADD/SUB/MULT/DIV
 	- AND/OR/XOR/NOT
 	...
-- Assembler
+- [ ] Assembler
